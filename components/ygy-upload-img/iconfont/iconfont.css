@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "iconfont";
+	src: url('~@/components/ygy-upload-img/iconfont/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jiahao2:before {
+	content: "\e604";
+}
+
+.icon-close-circle-fill:before {
+	content: "\e844";
+}
+
+.icon-close_circle:before {
+	content: "\e66e";
+}
+
+.icon-jiahao:before {
+	content: "\e726";
+}

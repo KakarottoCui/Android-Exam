@@ -1,0 +1,201 @@
+{
+	"pages": [
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				// #ifdef MP 
+				"navigationBarTitleText": "Dloud商城",
+				//"navigationStyle": "custom",
+				// #endif 
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"searchInput": {
+							"backgroundColor": "rgba(231, 231, 231,.7)",
+							"borderRadius": "16px",
+							"placeholder": "请输入试卷名称",
+							"placeholderColor": "#606266"
+						}
+					}
+				}
+			}
+		},
+	 {
+			"path": "pages/set/set",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+
+		{
+			"path": "pages/userinfo/userinfo",
+			"style": {
+				"navigationBarTitleText": "修改资料"
+			}
+		}, {
+			"path": "pages/public/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				// #ifdef MP
+				"navigationStyle": "custom",
+				// #endif
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [{
+								"fontSrc": "/static/yticon.ttf",
+								"text": "\ue60f",
+								"fontSize": "24",
+								"color": "#303133",
+								"width": "46px",
+								"background": "rgba(0,0,0,0)"
+							}
+						]
+					}
+				}
+			}
+		}
+        ,{
+            "path" : "pages/test/test",
+            "style" : {
+				"navigationBarTitleText": "我的考试",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        }
+       
+        ,{
+            "path" : "pages/public/addPaper",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑试卷",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/public/paperList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "试卷列表",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+			
+			"path" : "pages/public/addQuestion",
+			"style" :                                                                                    
+			{
+			    "navigationBarTitleText": "编辑试题",
+			    "enablePullDownRefresh": false
+			}
+		},{
+			
+			"path" : "pages/public/addUser",
+			"style" :                                                                                    
+			{
+			    "navigationBarTitleText": "编辑人员",
+			    "enablePullDownRefresh": false
+			}
+		}
+        ,{
+            "path" : "pages/public/questionList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "试题列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/public/paperInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "考试管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/public/userList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "人员管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/public/examPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "考试",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/public/examResPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "考试记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/public/examUserList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "考试明细",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#f8f8f8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#2979ff",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab-home.png",
+				"selectedIconPath": "static/tab-home-current2.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/test/test",
+				"iconPath": "static/tab-cate.png",
+				"selectedIconPath": "static/tab-cate-current.png",
+				"text": "考试"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tab-my.png",
+				"selectedIconPath": "static/tab-my-current.png",
+				"text": "我的"
+			}
+		]
+	}
+}

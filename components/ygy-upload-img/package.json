@@ -1,0 +1,11 @@
+{
+  "name": "ygy-upload-img",
+  "version": "1.0.0",
+  "description": "图片转为base64格式文件，上传组件",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "ygy",
+  "license": "ISC"
+}

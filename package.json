@@ -1,0 +1,16 @@
+{
+    "id": "ygy-upload-img",
+    "name": "base64图片上传组件",
+    "version": "1.0.0",
+    "description": "该组件主要用于获取本地的图片文件并且转换为base64的格式来传输到后台。",
+    "keywords": [
+        "base64",
+        "图片上传"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}
